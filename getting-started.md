@@ -48,7 +48,7 @@ curl --user "{username}":"{password}" \
 ## Step 3: Return keyword information
 {: #analyze-keywords}
 
-The previous call returned sentiment information for the whole text. Now expand the results to return sentiment analysis specifically on each of the keywords by including the **keywords.sentiment** parameter set to `true`.  Replace `{username}` and `{password}` with your information.
+The previous call returned sentiment information for the whole text. Now expand the results to return sentiment analysis specifically on each of the keywords. You include the **keywords.sentiment** parameter and set it to `true`. Replace `{username}` and `{password}` with your information.
 
 ```bash
 curl --user "{username}":"{password}" \
@@ -59,7 +59,7 @@ curl --user "{username}":"{password}" \
 ## Step 4: Target a phrase
 {: #analyze-phrase}
 
-Now target specific content to see a sentence-level or phrase-level analysis (instead of a document or keyword analysis) by including the phrase `the%20American%20dream%20` in the **sentiment.targets** parameter.  Don't forgget to replace `{username}` and `{password}` with your information.
+Now target specific content to see a sentence-level or phrase-level analysis (instead of a document or keyword analysis) by including the phrase `the%20American%20dream%20` in the **sentiment.targets** parameter. Don't forget to replace `{username}` and `{password}` with your information.
 
 ```bash
 curl --user "{username}":"{password}" \
@@ -70,7 +70,7 @@ curl --user "{username}":"{password}" \
 ## Next steps
 {: #next-steps}
 
-You're done! This tutorial includes some simple examples of what you can do with {{site.data.keyword.nlushort}}. For a real application, you'll need to understand the more sophisticated functionality of the API.
+You're done! This tutorial barely scratches the surface of what you can accomplish with {{site.data.keyword.nlushort}}. For more information about the features of the API, see these resources:
 
-- Read about the API in the [API Reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window} for details and examples of each of the parameters.
+- View the [API Reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/){: new_window} for details and examples of each of the parameters.
 - Learn how to identify [custom entities and relations ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/customizing.html){: new_window}.
