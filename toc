@@ -16,10 +16,7 @@ Natural Language Understanding
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    {: .topicgroup}
-    External docs
-        [About](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
-        [Migrating from AlchemyLanguage](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/migrating.html)
+    [Expanded docs](https://www.ibm.com/watson/developercloud/doc/natural-language-understanding/index.html)
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
