@@ -48,7 +48,7 @@ curl --user "{username}":"{password}" \
 ## Step 3: Return keyword information
 {: #analyze-keywords}
 
-The previous call returned sentiment information for the whole text. Now expand the results to return sentiment analysis specifically on each of the keywords. You include the **keywords.sentiment** parameter and set it to `true`. Replace `{username}` and `{password}` with your information.
+The previous call returned sentiment information for the whole text. Now expand the results to return sentiment analysis specifically on each of the keywords. Include the **keywords.sentiment** parameter and set it to `true`. Replace `{username}` and `{password}` with your information.
 
 ```bash
 curl --user "{username}":"{password}" \
