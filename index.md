@@ -52,7 +52,7 @@ The following example shows how to call the API from a command line with curl. C
 Open a command prompt or terminal, and send a request to the API using the settings from the *parameters.json* file you created. Replace *username* and *password* with your service credentials.
 
 ```bash
-curl -X POST -u "username":"password" -d @parameters.json https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze
+curl -X POST -u "username":"password" -d @parameters.json -H "Content-Type:application/json" https://gateway.watsonplatform.net/natural-language-understanding/api/v1/analyze?version=2017-02-27
 ```
 {: codeblock}
 
